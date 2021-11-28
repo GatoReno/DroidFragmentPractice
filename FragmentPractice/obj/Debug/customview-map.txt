@@ -15,9 +15,11 @@ external-cache-path;/Users/ed/Projects/FragmentPractice/FragmentPractice/obj/Deb
 external-path;/Users/ed/Projects/FragmentPractice/FragmentPractice/obj/Debug/lp/38/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
+FrameLayout;obj/Debug/res/layout/content_main.xml
 include;obj/Debug/res/layout/activity_main.xml
 item;obj/Debug/res/menu/menu_main.xml
 item;obj/Debug/res/values/styles.xml
+LinearLayout;obj/Debug/res/layout/fragment_one.xml
 menu;obj/Debug/res/menu/menu_main.xml
 paths;/Users/ed/Projects/FragmentPractice/FragmentPractice/obj/Debug/lp/38/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj/Debug/res/layout/content_main.xml
@@ -28,4 +30,4 @@ resources;obj/Debug/res/values/strings.xml
 resources;obj/Debug/res/values/styles.xml
 string;obj/Debug/res/values/strings.xml
 style;obj/Debug/res/values/styles.xml
-TextView;obj/Debug/res/layout/content_main.xml
+TextView;obj/Debug/res/layout/fragment_one.xml

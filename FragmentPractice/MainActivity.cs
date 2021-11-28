@@ -7,6 +7,7 @@ using AndroidX.AppCompat.Widget;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.FloatingActionButton;
 using Google.Android.Material.Snackbar;
+using FragmentPractice.Fragments;
 
 namespace FragmentPractice
 {
@@ -24,6 +25,10 @@ namespace FragmentPractice
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
+
+            var trans = SupportFragmentManager.BeginTransaction();
+            trans.Add(Resource.Id.fragmentContainer, new FragmentOne(), "Fragment_One");
+            trans.Commit();
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -45,6 +50,7 @@ namespace FragmentPractice
 
         private void FabOnClick(object sender, EventArgs eventArgs)
         {
+          
             View view = (View)sender;
             Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
                 .SetAction("Action", (View.IOnClickListener)null).Show();
